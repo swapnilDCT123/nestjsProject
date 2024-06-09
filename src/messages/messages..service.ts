@@ -1,4 +1,3 @@
-import { RequestTimeoutException } from '@nestjs/common';
 import { MessagesRepository } from './messages.repository';
 export class MessagesService {
   MessagesRepo: MessagesRepository;
